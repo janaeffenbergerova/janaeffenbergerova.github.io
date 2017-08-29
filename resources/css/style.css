@@ -1,11 +1,37 @@
-html {
+* {
   font-family: Helvetica, sans-serif;
 }
 
-h1, h2 {
-  color: DarkGreen;
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
 }
 
-h3 {
-  color: SeaGreen;
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color:white;
+}
+
+.blue-text {
+  font-weight: bold;
+  color: blue;
+}
+
+#heading {
+  background-image:url("../images/pattern.jpeg");
+}
+
+#green {
+  background-color: mediumspringgreen;
+}
+
+#pink {
+  background-color: lightcoral;
+}
+
+#blue {
+  background-color:skyblue;
 }
