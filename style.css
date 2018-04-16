@@ -1,0 +1,72 @@
+html {
+  font-size: 20px;
+  font-family: "Amatic SC";
+}
+
+body {
+  background-image: url(./obrazek.jpg);
+  background-size: cover;
+  color: white;
+}
+
+header {
+  font-weight: bold;
+  font-size: 4rem;
+  padding-bottom: 4%;
+  opacity: 0.8;
+}
+
+h2 {
+   font-size: 2rem;
+   padding-bottom: 5%;
+   font-weight: bold;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+}
+
+.page, .main, .header, .footer {
+  display: flex;
+}
+
+.main {
+  margin-bottom: 6%;
+  opacity: 0.6;
+}
+.page {
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 4%;
+  margin-right: 4%;
+  margin-bottom: 1%;
+}
+
+.left, .right, .center {
+  border: 2px dotted white;
+  background-color: black;
+  border-radius: 0.5rem;;
+  padding: 3%;
+  width: 30%;
+}
+
+.left, .center {
+  margin-right: 2%;
+}
+
+footer {
+  border: 2px dotted white;
+  border-radius: 0.5rem;
+  opacity: 0.8;
+  word-spacing: 0.5rem;
+  background-color: black;
+  padding-left: 1%;
+  font-weight: bold;
+}
