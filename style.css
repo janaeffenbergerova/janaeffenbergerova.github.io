@@ -4,7 +4,8 @@ html {
 }
 
 body {
-  background-image: url(./obrazek.jpg);
+  background-image: url(./picture.jpg);
+  opacity: 1;
   background-size: cover;
   color: white;
 }
@@ -33,14 +34,18 @@ a {
   text-decoration: underline;
 }
 
+a:hover {
+  opacity: 0.6;
+}
+
 .page, .main, .header, .footer {
   display: flex;
 }
 
 .main {
   margin-bottom: 6%;
-  opacity: 0.6;
 }
+
 .page {
   flex-direction: column;
   margin-top: 4%;
@@ -55,6 +60,7 @@ a {
   border-radius: 0.5rem;;
   padding: 3%;
   width: 30%;
+  opacity: 0.7;
 }
 
 .left, .center {
@@ -62,11 +68,11 @@ a {
 }
 
 footer {
-  border: 2px dotted white;
-  border-radius: 0.5rem;
-  opacity: 0.8;
+  border-radius: 0.5rem;;
   word-spacing: 0.5rem;
-  background-color: black;
   padding-left: 1%;
   font-weight: bold;
+  background-color: black;
+  border: 2px dotted white;
+  opacity: 0.75;
 }
