@@ -24,8 +24,15 @@
         <div class="container">
           <div class="container2">
             <h1>Kontakt</h1>
-            <h2>E-mail: xxxxxxxxx</h2>
-            <h2>Telefon: 777777777</h2>
+          </div>
+          <div class="container2">
+            <p>Pošlete mi e-mail</p>
+            <form action="druhy.php">
+              <label for="email">Váš mail: </label><input name="mail_odesilatele" size="50" id="email"><br><br>
+              <label for="predmet">Předmět: </label><input name="predmet" size="50" id="predmet"><br><br>
+              <label for="zprava">Zpráva: </label><textarea name="zprava" cols="50" rows="10" id="zprava"></textarea><br><br>
+              <input type=submit value="Odeslat">
+            </form>
           </div>
         </div>
       </main>
