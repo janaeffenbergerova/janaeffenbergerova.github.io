@@ -1,0 +1,29 @@
+body {
+  background-image: url(forest.jpg);
+  background-size: auto;
+  background-position: center center;
+  font-family: "Courier New", monospace;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+  line-height: 1.5;
+}
+
+a {
+  color: black;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: black;
+}
